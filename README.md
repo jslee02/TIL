@@ -33,3 +33,7 @@ void resize(NoChange, int cols);
 
 --
 
+* **Q: Fastest way to fill vector**
+* **A: `std::fill(v.begin(), v.end(), value)`
+  * Rationale: [SO](http://stackoverflow.com/a/8849789/3122234)
+
