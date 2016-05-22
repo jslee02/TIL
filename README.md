@@ -33,7 +33,12 @@ void resize(NoChange, int cols);
 
 --
 
-* **Q: Fastest way to fill vector**
-* **A: `std::fill(v.begin(), v.end(), value)`
+* **Q: Fastest way to fill vector with a value**
+* **A: `std::fill(v.begin(), v.end(), value)`**
   * Rationale: [SO](http://stackoverflow.com/a/8849789/3122234)
 
+--
+
+* **Q: Fastest or easiest way to fill vector with sequentially increasing values, starting with a value**
+* **A: `std::iota(v.begin(), v.end(), value)`**
+  * Rationale: [SO](http://stackoverflow.com/a/25475753/3122234)
