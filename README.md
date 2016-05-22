@@ -17,9 +17,7 @@ void resize(int rows, NoChange);
 void resize(NoChange, int cols);
 ```
 
-## Code Optimization
-
-### STL
+## Using STL
 
 * **Q: Which way is better to fill elements into `std::vector`**: 
   * `resize()` + assign
